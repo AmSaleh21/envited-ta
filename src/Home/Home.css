@@ -1,0 +1,24 @@
+.snapChat {
+    font-family: 'Helvetica', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    /*text-align: center;*/
+
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-container {
+    width:50%;
+    height: 100vh;
+    background-image: url("../assets/Landing page image.svg");
+    filter: drop-shadow(0px 0px 33px rgba(0, 0, 0, 0.05));
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
